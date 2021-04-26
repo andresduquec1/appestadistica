@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Interpretemos4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:textAlignment="center">
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:src="@drawable/interpretemos" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/actividad3" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#3AEFCA">
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/interpretemos_gr_ficos_estad_sticos"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/actividad_de_aplicaci_n5"
+                    android:textColor="#000000"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:text="@string/lee_atentamente_la_siguiente_situaci_n_observa_la_tabla_de_frecuencia_y_selecciona_la_respuesta_correcta_a_cada_pregunta"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:text="@string/un_odont_logo_realiz_un_estudio_sobre_la_aparici_n_de_caries_en_los_dientes_de_los_jovenes_entre_12_y_18_a_os_de_edad_para_hacerlo_examin_a_50_jovenes_con_el_fin_de_determinar_el_n_mero_de_caries_que_presentaba_cada_uno_de_ellos_en_el_estudio_obtuvo_el_siguiente_resultado"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nuevaabla" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotation="180"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/btnMenus"
+                    android:layout_width="112dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ivArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/flecha" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

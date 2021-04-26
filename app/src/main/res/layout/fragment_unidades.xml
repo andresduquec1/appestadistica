@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnMenus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    tools:context=".fragments.Unidades">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15sp">
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:src="@drawable/unidades" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#3AEFCA"
+                app:cardElevation="3dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:padding="10sp"
+                    android:text="@string/unidades_de_aprendizaje"
+                    android:textColor="#F1EEEE"
+                    android:textSize="21sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:textColorHint="#000000"
+                app:boxStrokeColor="#3F51B5">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/tiNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Nombre completo"
+                    android:textColor="#000000"
+                    android:textColorHighlight="#3F51B5"
+                    android:textColorLink="#000000" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif"
+                android:text="Guardar"
+                android:textAllCaps="false"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/guardar" />
+
+            <LinearLayout
+                android:id="@+id/llPuntaje"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:text="Respuestas correctas"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:text="Respuestas incorrectas"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvCorrectas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvIncorrectas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnPuntaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="puntaje"
+                    android:textAllCaps="false"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivResultados"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/resultados" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="Respuestas descriptivas"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvRespuesta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvRespuesta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="2"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvAnalalicemos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_1_analicemos_datos_estad_sticos"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivAnalicemos"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/analicemos" />
+
+            <TextView
+                android:id="@+id/tvInterpretemos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_2_interpretemos_gr_ficos_estad_sticos"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivInterpretemos"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/interpretemos" />
+
+            <TextView
+                android:id="@+id/tvHallando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_3_hallando_las_tres_m"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivHallando"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/hallando" />
+
+            <TextView
+                android:id="@+id/tvMejorando"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/_4_mejorando_mis_conocimientos"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivMejorando"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/mejorando" />
+
+            <View
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnEvaluacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Evaluación"
+                android:textAllCaps="false"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ivEvaluacion"
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/evaluacion" />
+
+            <ImageView
+                android:id="@+id/btnMenu"
+                android:layout_width="212dp"
+                android:layout_height="57dp"
+                android:layout_gravity="center"
+                android:src="@drawable/menu"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

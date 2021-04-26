@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Analicemos5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:scrollbarSize="18dp">
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="2. Observa detenidamente la siguiente tabla de frecuencias, la cual resume los resultados del torneo de fútbol de una empresa de energía. Responde las preguntas."
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/futbol" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="A. ¿Cuál equipo ganó el torneo de fútbol?"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rg11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bravos" />
+
+                    <RadioButton
+                        android:id="@+id/rb26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Patriotas" />
+
+                    <RadioButton
+                        android:id="@+id/rb27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Realistas" />
+
+                    <RadioButton
+                        android:id="@+id/rb28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cardenales" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="B. ¿Qué equipo quedó en el último lugar?"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/rg12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/rb29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bravos" />
+
+                    <RadioButton
+                        android:id="@+id/rb30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Patriotas" />
+
+                    <RadioButton
+                        android:id="@+id/rb31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Realistas" />
+
+                    <RadioButton
+                        android:id="@+id/rb32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cardenales" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="C. ¿Qué tipo de variable interviene en esta situación ?"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rg13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb33"
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cualitativa" />
+
+                <RadioButton
+                    android:id="@+id/rb34"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cuantitativa" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="D. ¿Cuál fue la diferencia entre los puntajes obtenidos por el ganador del torneo y el que quedó en la ultima posición?"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rg14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2." />
+
+                <RadioButton
+                    android:id="@+id/rb36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="0." />
+
+                <RadioButton
+                    android:id="@+id/rb37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1." />
+
+                <RadioButton
+                    android:id="@+id/rb38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="3." />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotation="180"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/btnMenus"
+                    android:layout_width="112dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ivArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/flecha" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

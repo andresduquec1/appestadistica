@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Mejorando1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/mejorando" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#3AEFCA">
+
+                <TextView
+                    android:id="@+id/textView129"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/mejorando_mis_conocimientos"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/presentaci_n"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/la_siguiente_unidad_de_aprendizaje_se_divide_en_dos_momentos_que_son"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/actividad_de_reconocimiento_de_saberes_previos_en_esta_secci_n_hallar_s_conceptos_trabajados_en_las_tres_unidades_los_cuales_deber_s_seleccionar_la_respuesta_correcta"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/actividad_evaluativa_en_esta_secci_n_se_presentan_tres_puntos_relacionados_con_cada_una_de_las_tem_ticas_observadas_en_la_unidad_se_debe_hacer_analisis_de_datos_gr_ficas_hallar_las_tres_m_a_trav_s_de_selecci_n_m_ltiple_unica_respuesta"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/aprendizaje_esperado1"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/identifica_los_conceptos_trabajados_en_las_tres_unidades"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/analisa_e_interpreta_datos_y_gr_ficos_estad_sticos"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/halla_las_tres_m_media_mediana_moda_de_casos_o_situaciones_presentadas"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotation="180"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/btnMenus"
+                    android:layout_width="112dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ivArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/flecha" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

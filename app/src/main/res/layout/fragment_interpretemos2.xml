@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Interpretemos2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:src="@drawable/interpretemos" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/actividad" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#3AEFCA">
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/interpretemos_gr_ficos_estad_sticos"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/actividad_de_exploraci_n4"
+                    android:textColor="#000000"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/recordemos_el_concepto_de"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv15"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iv15" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvGraficos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/gr_ficos_estad_sticos"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/recordemos_y_observemos_las_diferentes_gr_ficas_estad_sticas"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/iv16" />
+
+                <ImageView
+                    android:id="@+id/iv17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/iv17" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvTabla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/tabla_de_frecuencia"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvDiagrama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/textView75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/diagrama_barra_horizantal"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/iv18" />
+
+                <ImageView
+                    android:id="@+id/iv19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/iv19" />
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvDiagrama2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/textView77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/diagrama_barra_vertical"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvDiagrama3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/textView76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/diagrama_circular"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvPictograma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/pictogramas"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/iv20"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/iv20" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotation="180"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/btnMenus"
+                    android:layout_width="112dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ivArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/flecha" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

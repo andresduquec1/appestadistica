@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Analicemos4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:src="@drawable/analicemos" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:src="@drawable/actividad3" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15sp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#3AEFCA">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
+                    android:text="Analicemos datos estadísticos"
+                    android:textAlignment="center"
+                    android:textColor="#F8F5F5"
+                    android:textSize="24sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:padding="10dp"
+                    android:text="Actividad de aplicación"
+                    android:textAlignment="center"
+                    android:textColor="#0B0A0A"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="sans-serif"
+                android:text="Instrucciones:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="sans-serif"
+                android:text="Lee atentamente cada pregunta y selecciona la respuesta correcta."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:fontFamily="sans-serif"
+                android:text="1. clasifica cada una de las siguientes variables como cuantitativa o cualitativa."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="A. Deporte preferido"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/rg5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp">
+
+                <RadioButton
+                    android:id="@+id/rb13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="sans-serif"
+                    android:text="Cuantitativa"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb14"
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="sans-serif"
+                    android:text="Cualitativa"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="B. tiempo (en segundos) en recorrer una distancia de 100M"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/rg6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp">
+
+                <RadioButton
+                    android:id="@+id/rb15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cualitativa"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cuantitativa"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="C. número de hermanos de un grupo de estudiantes."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/rg7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp">
+
+                <RadioButton
+                    android:id="@+id/rb17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cuantitativa"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cualitativa"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="D. Lectura favorita"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/rg8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp">
+
+                <RadioButton
+                    android:id="@+id/rb19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cuantitativa"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb20"
+                    android:layout_width="181dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Cualitativa"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="E. salario de un grupo de trabajadores."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/rg9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp">
+
+                <RadioButton
+                    android:id="@+id/rb21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cuantitativa"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cualitativa"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="F. valoración en el examen (S, A, BS, BJ) "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/rg10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10sp">
+
+                <RadioButton
+                    android:id="@+id/rb23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cualitativa"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/rb24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Cuantitaiva"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotation="180"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/btnMenus"
+                    android:layout_width="112dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ivArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/flecha" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

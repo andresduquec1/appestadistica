@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Mejorando4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="3. Realiza la lectura del siguente caso y selecciona la respuesta correcta."
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Para la clase de ciencias natuarales los estudiantes del grado 7° colocaron a germinar un grano de maiz. Despues de 2 demanas cada uno midió la altura de su planta en cm, los resultados se muestran a continuación. "
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/planta" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="A. ¿Cuantas plantas crecieron 11, 12 y 13 cm?"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <RadioGroup
+                android:id="@+id/rg46"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb173"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="21" />
+
+                <RadioButton
+                    android:id="@+id/rb174"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10" />
+
+                <RadioButton
+                    android:id="@+id/rb175"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="15" />
+
+                <RadioButton
+                    android:id="@+id/rb176"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="19" />
+
+                <RadioButton
+                    android:id="@+id/rb177"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B. ¿Cuantas plantas crecieron más de 12 cm?"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/rg50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb193"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13." />
+
+                <RadioButton
+                    android:id="@+id/rb194"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10." />
+
+                <RadioButton
+                    android:id="@+id/rb195"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9." />
+
+                <RadioButton
+                    android:id="@+id/rb196"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1." />
+
+                <RadioButton
+                    android:id="@+id/rb197"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5." />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="C. ¿Cuál fué el promedio de crecimiento de las plantas ?"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <RadioGroup
+                android:id="@+id/rg47"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb178"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1,16" />
+
+                <RadioButton
+                    android:id="@+id/rb179"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11,6" />
+
+                <RadioButton
+                    android:id="@+id/rb180"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12,6" />
+
+                <RadioButton
+                    android:id="@+id/rb181"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10,6" />
+
+                <RadioButton
+                    android:id="@+id/rb182"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9,6" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="D. ¿Cuál es el dato de crecimiento de las plantas que ocupa el lugar de la mediana?"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <RadioGroup
+                android:id="@+id/rg48"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb183"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10,5" />
+
+                <RadioButton
+                    android:id="@+id/rb184"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10" />
+
+                <RadioButton
+                    android:id="@+id/rb185"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11" />
+
+                <RadioButton
+                    android:id="@+id/rb186"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11,3" />
+
+                <RadioButton
+                    android:id="@+id/rb187"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11,5" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="E. ¿Cuál es el dato que mas se repite en el crecimiento de las plantas "
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <RadioGroup
+                android:id="@+id/rg49"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb188"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="11" />
+
+                <RadioButton
+                    android:id="@+id/rb189"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="14" />
+
+                <RadioButton
+                    android:id="@+id/rb190"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12" />
+
+                <RadioButton
+                    android:id="@+id/rb191"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10" />
+
+                <RadioButton
+                    android:id="@+id/rb192"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="13" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotation="180"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/btnMenus"
+                    android:layout_width="112dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ivArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/flecha" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

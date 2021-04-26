@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HallandoM4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:src="@drawable/hallando" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/actividad3" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="#3AEFCA">
+
+                <TextView
+                    android:id="@+id/textView115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/hallando_las_tres_m"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView117"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/actividad_de_aplicaci_n2"
+                    android:textColor="#000000"
+                    android:textSize="21sp" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/en_esta_actividad_deber_s_tener_en_cuenta_el_caso_de_la_actividad_de_pr_ctica_para_seleccionar_la_respuesta_correcta_de_la_siguiente_actividad"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1. Media"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/rg25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/rb71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="53" />
+
+                <RadioButton
+                    android:id="@+id/rb72"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="49" />
+
+                <RadioButton
+                    android:id="@+id/rb73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="45,67" />
+
+                <RadioButton
+                    android:id="@+id/rb74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="46,5" />
+
+                <RadioButton
+                    android:id="@+id/rb75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="60" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Mediana"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/rg26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="53" />
+
+                <RadioButton
+                    android:id="@+id/rb77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="49" />
+
+                <RadioButton
+                    android:id="@+id/rb78"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="45,67" />
+
+                <RadioButton
+                    android:id="@+id/rb79"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="46,5" />
+
+                <RadioButton
+                    android:id="@+id/rb80"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="60" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Moda"
+                android:textColor="#000000" />
+
+            <RadioGroup
+                android:id="@+id/rg27"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rb81"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="53" />
+
+                <RadioButton
+                    android:id="@+id/rb82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="49" />
+
+                <RadioButton
+                    android:id="@+id/rb83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="45,67" />
+
+                <RadioButton
+                    android:id="@+id/rb84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="46,5" />
+
+                <RadioButton
+                    android:id="@+id/rb85"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="60" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="119dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivArrowLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:rotation="180"
+                    android:src="@drawable/flecha" />
+
+                <ImageView
+                    android:id="@+id/btnMenus"
+                    android:layout_width="112dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ivArrowRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/flecha" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
